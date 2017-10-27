@@ -136,6 +136,7 @@ RDEPENDS_${PN}_class-native = ""
 RDEPENDS_${PN}_class-nativesdk = ""
 
 RPROVIDES_${PN}-dev = "util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev"
+RPROVIDES_nativesdk-${PN}-dev = "nativesdk-util-linux-libblkid-dev nativesdk-util-linux-libmount-dev nativesdk-util-linux-libuuid-dev"
 
 #SYSTEMD_PACKAGES = "${PN}-uuidd ${PN}-fstrim"
 SYSTEMD_SERVICE_${PN}-uuidd = "uuidd.socket uuidd.service"
